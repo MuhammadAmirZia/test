@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+<style>
+
+.main-header-desktop{
+    height:1450px;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+}
+
+.main-header-desktop span{
+    font-size:40px;
+    color:white;
+   padding: 100px;
+   position: relative;
+   top:60px;
+}
+.main-header-desktop ul li a{
+    color:white;
+    font-size:40px;
+    text-decoration: none;
+}
+.main-header-tablet{
+    display: none;
+}
+.main-header-tablet img{
+    width:100%;
+}
+.main-header-tablet ul{
+    position: absolute;
+    top: 50px;
+    left:50%;
+}
+.main-header-tablet span{
+    position: absolute;
+    color:white;
+    font-size:20px;
+    top:50px;
+    left:140px;
+}
+@media only screen and (max-width: 1300px) {
+ .main-header-desktop span{
+     font-size:30px;
+     left:100px;
+ }
+ .main-header-desktop ul li a{
+    font-size:20px;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header-desktop{
+        display: none;
+    }
+ .main-header-tablet{
+     display:block;
+ }
+ .main-header-tablet ul li a{
+     color:white;
+ }
+}
+@media only screen and (max-width: 579px) {
+    .main-header-tablet span{
+        top:0;
+        text-align:left;
+        left:20%;
+    }
+ .main-header-tablet ul{
+top:30px;
+left: 20%;
+ }
+}
+
+.main-cloud-desktop{
+    height:700px;
+    background-image: url(images/MainClouds.png);
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    position: relative;
+    top:-300px;
+}
+.main-cloud-desktop h1{
+    position: relative;
+    top:400px;
+    text-align: center;
+    font-size:100px;
+    color:#2389bf;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+</style>
+</head>
+  <body>
+      
+
+<div class="main-header-desktop">
+    <div class="container">
+        <span>ACA EXPLORER</span>
+    <ul class="list-inline text-right text-uppercase">
+        <li class="list-inline-item"><a href="#" class="mr-3">BLOG</a></li>
+        <li class="list-inline-item"><a href="#"  class="mr-3">DENOTE</a></li>
+        <li class="list-inline-item"><a href="#"  class="mr-3">ABOUT US</a></li>
+</ul>
+</div>
+</div>
+<div class="main-header-tablet">
+        <span>ACA EXPLORER</span>
+            <ul class="list-inline text-center text-uppercase">
+                <li class="list-inline-item"><a href="#" class="mr-3">BLOG</a></li>
+                <li class="list-inline-item"><a href="#"  class="mr-3">DENOTE</a></li>
+                <li class="list-inline-item"><a href="#"  class="mr-3">ABOUT US</a></li>
+        </ul>
+        <img src="images/Header.png">
+</div>
+
+
+
+
+<!-- <div class="main-cloud-desktop">
+<h1>LEARN SPAINISH,<BR>HELPS KIDS</h1>
+</div>
+
+<div class="main-cloud-tablet text-center">
+    <img src="images/MainClouds.png" class="img-fluid">
+        <h1>LEARN SPAINISH,<BR>HELPS KIDS</h1>
+        </div>
+         -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
